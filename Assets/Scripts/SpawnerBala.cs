@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnerBala : MonoBehaviour
 {
   [SerializeField] private GameObject balaPrefab; 
-  [SerializeField] private float tiempoEntreDisparos = 1.5f;
+  [SerializeField] private float tiempoEntreDisparos = 1f;
   [SerializeField] private Transform puntoDisparo;
 
     void Start()
